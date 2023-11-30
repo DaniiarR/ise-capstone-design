@@ -1,0 +1,5 @@
+[35m[1mScanning dependencies of target autonomy_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable autonomy_node[0m
+[100%] Built target autonomy_node

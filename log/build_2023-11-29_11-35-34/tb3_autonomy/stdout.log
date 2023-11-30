@@ -1,0 +1,23 @@
+[100%] Built target autonomy_node
+-- Install configuration: ""
+-- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/bt_xml
+-- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/bt_xml/tree.xml
+-- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/launch
+-- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/launch/autonomy.launch.py
+-- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/lib/tb3_autonomy/autonomy_node
+-- Set runtime path of "/home/daniiarr/colcon_ws/install/tb3_autonomy/lib/tb3_autonomy/autonomy_node" to ""
+-- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/ament_index/resource_index/package_run_dependencies/tb3_autonomy
+-- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/ament_index/resource_index/parent_prefix_path/tb3_autonomy
+-- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/environment/ament_prefix_path.sh
+-- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/environment/ament_prefix_path.dsv
+-- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/environment/path.sh
+-- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/environment/path.dsv
+-- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/local_setup.bash
+-- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/local_setup.sh
+-- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/local_setup.zsh
+-- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/local_setup.dsv
+-- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/package.dsv
+-- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/ament_index/resource_index/packages/tb3_autonomy
+-- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/cmake/tb3_autonomyConfig.cmake
+-- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/cmake/tb3_autonomyConfig-version.cmake
+-- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/package.xml

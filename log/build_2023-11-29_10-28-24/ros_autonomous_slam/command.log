@@ -1,0 +1,2 @@
+Invoking command in '/home/daniiarr/colcon_ws/build/ros_autonomous_slam': /usr/bin/cmake /home/daniiarr/colcon_ws/src/ros_autonomous_slam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/ros_autonomous_slam
+Invoked command in '/home/daniiarr/colcon_ws/build/ros_autonomous_slam' returned '1': /usr/bin/cmake /home/daniiarr/colcon_ws/src/ros_autonomous_slam -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/ros_autonomous_slam

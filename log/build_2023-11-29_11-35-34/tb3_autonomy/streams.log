@@ -1,0 +1,27 @@
+[0.160s] Invoking command in '/home/daniiarr/colcon_ws/build/tb3_autonomy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daniiarr/colcon_ws/build/tb3_autonomy -- -j4 -l4
+[0.209s] [100%] Built target autonomy_node
+[0.324s] Invoked command in '/home/daniiarr/colcon_ws/build/tb3_autonomy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daniiarr/colcon_ws/build/tb3_autonomy -- -j4 -l4
+[0.674s] Invoking command in '/home/daniiarr/colcon_ws/build/tb3_autonomy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/daniiarr/colcon_ws/build/tb3_autonomy
+[0.679s] -- Install configuration: ""
+[0.679s] -- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/bt_xml
+[0.679s] -- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/bt_xml/tree.xml
+[0.679s] -- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/launch
+[0.679s] -- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/launch/autonomy.launch.py
+[0.679s] -- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/lib/tb3_autonomy/autonomy_node
+[0.682s] -- Set runtime path of "/home/daniiarr/colcon_ws/install/tb3_autonomy/lib/tb3_autonomy/autonomy_node" to ""
+[0.682s] -- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/ament_index/resource_index/package_run_dependencies/tb3_autonomy
+[0.682s] -- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/ament_index/resource_index/parent_prefix_path/tb3_autonomy
+[0.682s] -- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/environment/ament_prefix_path.sh
+[0.682s] -- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/environment/ament_prefix_path.dsv
+[0.682s] -- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/environment/path.sh
+[0.682s] -- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/environment/path.dsv
+[0.682s] -- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/local_setup.bash
+[0.682s] -- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/local_setup.sh
+[0.682s] -- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/local_setup.zsh
+[0.682s] -- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/local_setup.dsv
+[0.682s] -- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/package.dsv
+[0.682s] -- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/ament_index/resource_index/packages/tb3_autonomy
+[0.682s] -- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/cmake/tb3_autonomyConfig.cmake
+[0.683s] -- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/cmake/tb3_autonomyConfig-version.cmake
+[0.683s] -- Installing: /home/daniiarr/colcon_ws/install/tb3_autonomy/share/tb3_autonomy/package.xml
+[0.687s] Invoked command in '/home/daniiarr/colcon_ws/build/tb3_autonomy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/daniiarr/colcon_ws/build/tb3_autonomy

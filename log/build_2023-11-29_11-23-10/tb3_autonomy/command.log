@@ -1,0 +1,1 @@
+Invoking command in '/home/daniiarr/colcon_ws/build/tb3_autonomy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_autonomy -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/tb3_autonomy

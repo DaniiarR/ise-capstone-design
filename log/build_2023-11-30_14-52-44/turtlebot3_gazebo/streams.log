@@ -1,0 +1,106 @@
+[0.072s] Invoking command in '/home/daniiarr/colcon_ws/build/turtlebot3_gazebo': AMENT_PREFIX_PATH=/home/daniiarr/colcon_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daniiarr/colcon_ws/install/turtlebot3_description:/opt/ros/foxy /usr/bin/cmake /home/daniiarr/colcon_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/turtlebot3_gazebo
+[0.127s] -- The C compiler identification is GNU 9.4.0
+[0.173s] -- The CXX compiler identification is GNU 9.4.0
+[0.176s] -- Check for working C compiler: /usr/bin/cc
+[0.227s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.227s] -- Detecting C compiler ABI info
+[0.309s] -- Detecting C compiler ABI info - done
+[0.320s] -- Detecting C compile features
+[0.320s] -- Detecting C compile features - done
+[0.320s] -- Check for working CXX compiler: /usr/bin/c++
+[0.456s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.457s] -- Detecting CXX compiler ABI info
+[0.716s] -- Detecting CXX compiler ABI info - done
+[0.728s] -- Detecting CXX compile features
+[0.729s] -- Detecting CXX compile features - done
+[0.731s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.780s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.781s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.124s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1") 
+[1.129s] -- Checking for module 'bullet>=2.82'
+[1.158s] --   Found bullet, version 2.88
+[1.849s] -- Found ccd: /usr/include (found suitable version "2.0", minimum required is "2.0") 
+[2.214s] -- Found fcl: /usr/include (found suitable version "0.5.0", minimum required is "0.3.2") 
+[2.558s] -- Found assimp: /usr/include (found version "5.0.0") 
+[2.616s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.569s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found suitable version "1.71.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[3.637s] -- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so;-lpthread (found version "3.6.1") 
+[3.645s] -- Looking for ignition-math6 -- found version 6.15.0
+[3.657s] -- Searching for dependencies of ignition-math6
+[3.663s] -- Looking for OGRE...
+[3.664s] -- OGRE_PREFIX_WATCH changed.
+[3.687s] -- Checking for module 'OGRE'
+[3.798s] --   Found OGRE, version 1.9.0
+[4.044s] -- Found Ogre Ghadamon (1.9.0)
+[4.051s] -- Found OGRE: optimized;/usr/lib/aarch64-linux-gnu/libOgreMain.so;debug;/usr/lib/aarch64-linux-gnu/libOgreMain.so
+[4.064s] -- Looking for OGRE_Paging...
+[4.084s] -- Found OGRE_Paging: optimized;/usr/lib/aarch64-linux-gnu/libOgrePaging.so;debug;/usr/lib/aarch64-linux-gnu/libOgrePaging.so
+[4.084s] -- Looking for OGRE_Terrain...
+[4.100s] -- Found OGRE_Terrain: optimized;/usr/lib/aarch64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/aarch64-linux-gnu/libOgreTerrain.so
+[4.100s] -- Looking for OGRE_Property...
+[4.107s] -- Found OGRE_Property: optimized;/usr/lib/aarch64-linux-gnu/libOgreProperty.so;debug;/usr/lib/aarch64-linux-gnu/libOgreProperty.so
+[4.107s] -- Looking for OGRE_RTShaderSystem...
+[4.122s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/aarch64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/aarch64-linux-gnu/libOgreRTShaderSystem.so
+[4.122s] -- Looking for OGRE_Volume...
+[4.135s] -- Found OGRE_Volume: optimized;/usr/lib/aarch64-linux-gnu/libOgreVolume.so;debug;/usr/lib/aarch64-linux-gnu/libOgreVolume.so
+[4.135s] -- Looking for OGRE_Overlay...
+[4.152s] -- Found OGRE_Overlay: optimized;/usr/lib/aarch64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/aarch64-linux-gnu/libOgreOverlay.so
+[4.362s] -- Looking for ignition-math6 -- found version 6.15.0
+[4.366s] -- Looking for ignition-transport8 -- found version 8.4.0
+[4.366s] -- Searching for dependencies of ignition-transport8
+[4.394s] -- Found Protobuf: /usr/lib/aarch64-linux-gnu/libprotobuf.so;-lpthread (found suitable version "3.6.1", minimum required is "3") 
+[4.418s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[4.431s] -- Checking for module 'libzmq >= 4'
+[4.530s] --   Found libzmq , version 4.3.2
+[4.753s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[4.783s] -- Checking for module 'uuid'
+[4.866s] --   Found uuid, version 2.34.0
+[5.113s] -- Found UUID: TRUE  
+[5.116s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[5.117s] -- Searching for dependencies of ignition-msgs5
+[5.172s] -- Looking for ignition-math6 -- found version 6.15.0
+[5.191s] -- Checking for module 'tinyxml2'
+[5.263s] --   Found tinyxml2, version 6.2.0
+[5.387s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[5.391s] -- Looking for ignition-common3 -- found version 3.16.0
+[5.391s] -- Searching for dependencies of ignition-common3
+[5.392s] -- Looking for dlfcn.h - found
+[5.393s] -- Looking for libdl - found
+[5.394s] -- Found DL: TRUE  
+[5.417s] -- Searching for <ignition-common3> component [graphics]
+[5.420s] -- Looking for ignition-common3-graphics -- found version 3.16.0
+[5.420s] -- Searching for dependencies of ignition-common3-graphics
+[5.421s] -- Looking for ignition-math6 -- found version 6.15.0
+[5.428s] -- Looking for ignition-fuel_tools4 -- found version 4.9.0
+[5.429s] -- Searching for dependencies of ignition-fuel_tools4
+[5.859s] -- Found CURL: /usr/lib/aarch64-linux-gnu/libcurl.so (found version "7.68.0")  
+[5.883s] -- Checking for module 'jsoncpp'
+[5.974s] --   Found jsoncpp, version 1.7.4
+[6.233s] -- Found JSONCPP: TRUE  
+[6.259s] -- Checking for module 'libzip'
+[6.362s] --   Found libzip, version 1.5.1
+[6.629s] -- Found ZIP: TRUE  
+[6.629s] -- Looking for ignition-common3 -- found version 3.16.0
+[6.630s] -- Looking for ignition-math6 -- found version 6.15.0
+[6.631s] -- Looking for ignition-msgs5 -- found version 5.11.0
+[6.656s] CMake Error at CMakeLists.txt:24 (find_package):
+[6.656s]   By not providing "Findgazebo_ros_pkgs.cmake" in CMAKE_MODULE_PATH this
+[6.656s]   project has asked CMake to find a package configuration file provided by
+[6.656s]   "gazebo_ros_pkgs", but CMake did not find one.
+[6.656s] 
+[6.656s]   Could not find a package configuration file provided by "gazebo_ros_pkgs"
+[6.657s]   with any of the following names:
+[6.657s] 
+[6.657s]     gazebo_ros_pkgsConfig.cmake
+[6.657s]     gazebo_ros_pkgs-config.cmake
+[6.657s] 
+[6.657s]   Add the installation prefix of "gazebo_ros_pkgs" to CMAKE_PREFIX_PATH or
+[6.657s]   set "gazebo_ros_pkgs_DIR" to a directory containing one of the above files.
+[6.657s]   If "gazebo_ros_pkgs" provides a separate development package or SDK, be
+[6.657s]   sure it has been installed.
+[6.657s] 
+[6.657s] 
+[6.657s] -- Configuring incomplete, errors occurred!
+[6.657s] See also "/home/daniiarr/colcon_ws/build/turtlebot3_gazebo/CMakeFiles/CMakeOutput.log".
+[6.657s] See also "/home/daniiarr/colcon_ws/build/turtlebot3_gazebo/CMakeFiles/CMakeError.log".
+[6.665s] Invoked command in '/home/daniiarr/colcon_ws/build/turtlebot3_gazebo' returned '1': AMENT_PREFIX_PATH=/home/daniiarr/colcon_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daniiarr/colcon_ws/install/turtlebot3_description:/opt/ros/foxy /usr/bin/cmake /home/daniiarr/colcon_ws/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/turtlebot3_gazebo

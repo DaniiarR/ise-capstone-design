@@ -1,0 +1,42 @@
+running egg_info
+creating ../../../../../build/tb3_sim/tb3_sim.egg-info
+writing ../../../../../build/tb3_sim/tb3_sim.egg-info/PKG-INFO
+writing dependency_links to ../../../../../build/tb3_sim/tb3_sim.egg-info/dependency_links.txt
+writing entry points to ../../../../../build/tb3_sim/tb3_sim.egg-info/entry_points.txt
+writing requirements to ../../../../../build/tb3_sim/tb3_sim.egg-info/requires.txt
+writing top-level names to ../../../../../build/tb3_sim/tb3_sim.egg-info/top_level.txt
+writing manifest file '../../../../../build/tb3_sim/tb3_sim.egg-info/SOURCES.txt'
+reading manifest file '../../../../../build/tb3_sim/tb3_sim.egg-info/SOURCES.txt'
+writing manifest file '../../../../../build/tb3_sim/tb3_sim.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/daniiarr/colcon_ws/build/tb3_sim/build
+creating /home/daniiarr/colcon_ws/build/tb3_sim/build/lib
+creating /home/daniiarr/colcon_ws/build/tb3_sim/build/lib/tb3_sim
+copying tb3_sim/set_init_amcl_pose.py -> /home/daniiarr/colcon_ws/build/tb3_sim/build/lib/tb3_sim
+copying tb3_sim/__init__.py -> /home/daniiarr/colcon_ws/build/tb3_sim/build/lib/tb3_sim
+running install
+running install_lib
+creating /home/daniiarr/colcon_ws/install/tb3_sim/lib/python3.8/site-packages/tb3_sim
+copying /home/daniiarr/colcon_ws/build/tb3_sim/build/lib/tb3_sim/set_init_amcl_pose.py -> /home/daniiarr/colcon_ws/install/tb3_sim/lib/python3.8/site-packages/tb3_sim
+copying /home/daniiarr/colcon_ws/build/tb3_sim/build/lib/tb3_sim/__init__.py -> /home/daniiarr/colcon_ws/install/tb3_sim/lib/python3.8/site-packages/tb3_sim
+byte-compiling /home/daniiarr/colcon_ws/install/tb3_sim/lib/python3.8/site-packages/tb3_sim/set_init_amcl_pose.py to set_init_amcl_pose.cpython-38.pyc
+byte-compiling /home/daniiarr/colcon_ws/install/tb3_sim/lib/python3.8/site-packages/tb3_sim/__init__.py to __init__.cpython-38.pyc
+running install_data
+creating /home/daniiarr/colcon_ws/install/tb3_sim/share/ament_index
+creating /home/daniiarr/colcon_ws/install/tb3_sim/share/ament_index/resource_index
+creating /home/daniiarr/colcon_ws/install/tb3_sim/share/ament_index/resource_index/packages
+copying resource/tb3_sim -> /home/daniiarr/colcon_ws/install/tb3_sim/share/ament_index/resource_index/packages
+copying package.xml -> /home/daniiarr/colcon_ws/install/tb3_sim/share/tb3_sim
+copying launch/turtlebot3_world.launch.py -> /home/daniiarr/colcon_ws/install/tb3_sim/share/tb3_sim
+copying launch/nav2.launch.py -> /home/daniiarr/colcon_ws/install/tb3_sim/share/tb3_sim
+creating /home/daniiarr/colcon_ws/install/tb3_sim/share/tb3_sim/config
+copying config/sim_house_locations.yaml -> /home/daniiarr/colcon_ws/install/tb3_sim/share/tb3_sim/config/
+creating /home/daniiarr/colcon_ws/install/tb3_sim/share/tb3_sim/maps
+copying maps/map.pgm -> /home/daniiarr/colcon_ws/install/tb3_sim/share/tb3_sim/maps/
+copying maps/map.yaml -> /home/daniiarr/colcon_ws/install/tb3_sim/share/tb3_sim/maps/
+running install_egg_info
+Copying ../../../../../build/tb3_sim/tb3_sim.egg-info to /home/daniiarr/colcon_ws/install/tb3_sim/lib/python3.8/site-packages/tb3_sim-0.0.0-py3.8.egg-info
+running install_scripts
+Installing amcl_init_pose_publisher script to /home/daniiarr/colcon_ws/install/tb3_sim/lib/tb3_sim
+writing list of installed files to '/home/daniiarr/colcon_ws/build/tb3_sim/install.log'

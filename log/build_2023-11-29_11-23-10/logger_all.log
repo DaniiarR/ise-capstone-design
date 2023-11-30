@@ -1,0 +1,665 @@
+[0.953s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.953s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff84b87a90>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=4, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff84b87a90>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff8485c5e0>)
+[0.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.995s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.995s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/daniiarr/colcon_ws'
+[0.995s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.996s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.002s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation) by extensions ['ignore', 'ignore_ament_install']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation) by extension 'ignore'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation) by extension 'ignore_ament_install'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation) by extensions ['colcon_pkg']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation) by extension 'colcon_pkg'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation) by extensions ['colcon_meta']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation) by extension 'colcon_meta'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation) by extensions ['ros']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation) by extension 'ros'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation) by extensions ['cmake', 'python']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation) by extension 'cmake'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation) by extension 'python'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation) by extensions ['python_setup_py']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation) by extension 'python_setup_py'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src) by extensions ['ignore', 'ignore_ament_install']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src) by extension 'ignore'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src) by extension 'ignore_ament_install'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src) by extensions ['colcon_pkg']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src) by extension 'colcon_pkg'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src) by extensions ['colcon_meta']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src) by extension 'colcon_meta'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src) by extensions ['ros']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src) by extension 'ros'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src) by extensions ['cmake', 'python']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src) by extension 'cmake'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src) by extension 'python'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src) by extensions ['python_setup_py']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src) by extension 'python_setup_py'
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/navigation2) by extensions ['ignore', 'ignore_ament_install']
+[1.003s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/navigation2) by extension 'ignore'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/navigation2) by extension 'ignore_ament_install'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/navigation2) by extensions ['colcon_pkg']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/navigation2) by extension 'colcon_pkg'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/navigation2) by extensions ['colcon_meta']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/navigation2) by extension 'colcon_meta'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/navigation2) by extensions ['ros']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/navigation2) by extension 'ros'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/navigation2) by extensions ['cmake', 'python']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/navigation2) by extension 'cmake'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/navigation2) by extension 'python'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/navigation2) by extensions ['python_setup_py']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/navigation2) by extension 'python_setup_py'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt) by extensions ['ignore', 'ignore_ament_install']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt) by extension 'ignore'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt) by extension 'ignore_ament_install'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt) by extensions ['colcon_pkg']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt) by extension 'colcon_pkg'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt) by extensions ['colcon_meta']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt) by extension 'colcon_meta'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt) by extensions ['ros']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt) by extension 'ros'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt) by extensions ['cmake', 'python']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt) by extension 'cmake'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt) by extension 'python'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt) by extensions ['python_setup_py']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt) by extension 'python_setup_py'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/images) by extensions ['ignore', 'ignore_ament_install']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/images) by extension 'ignore'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/images) by extension 'ignore_ament_install'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/images) by extensions ['colcon_pkg']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/images) by extension 'colcon_pkg'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/images) by extensions ['colcon_meta']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/images) by extension 'colcon_meta'
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/images) by extensions ['ros']
+[1.004s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/images) by extension 'ros'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/images) by extensions ['cmake', 'python']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/images) by extension 'cmake'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/images) by extension 'python'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/images) by extensions ['python_setup_py']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/images) by extension 'python_setup_py'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_autonomy) by extensions ['ignore', 'ignore_ament_install']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_autonomy) by extension 'ignore'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_autonomy) by extension 'ignore_ament_install'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_autonomy) by extensions ['colcon_pkg']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_autonomy) by extension 'colcon_pkg'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_autonomy) by extensions ['colcon_meta']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_autonomy) by extension 'colcon_meta'
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_autonomy) by extensions ['ros']
+[1.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_autonomy) by extension 'ros'
+[1.009s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_autonomy' with type 'ros.ament_cmake' and name 'tb3_autonomy'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_sim) by extensions ['ignore', 'ignore_ament_install']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_sim) by extension 'ignore'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_sim) by extension 'ignore_ament_install'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_sim) by extensions ['colcon_pkg']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_sim) by extension 'colcon_pkg'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_sim) by extensions ['colcon_meta']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_sim) by extension 'colcon_meta'
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_sim) by extensions ['ros']
+[1.009s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_sim) by extension 'ros'
+[1.009s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_sim' with type 'ros.ament_python' and name 'tb3_sim'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3) by extension 'ignore'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3) by extension 'ignore_ament_install'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3) by extensions ['colcon_pkg']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3) by extension 'colcon_pkg'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3) by extensions ['colcon_meta']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3) by extension 'colcon_meta'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3) by extensions ['ros']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3) by extension 'ros'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3) by extensions ['cmake', 'python']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3) by extension 'cmake'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3) by extension 'python'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3) by extensions ['python_setup_py']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3) by extension 'python_setup_py'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3) by extensions ['ignore', 'ignore_ament_install']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3) by extension 'ignore'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3) by extension 'ignore_ament_install'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3) by extensions ['colcon_pkg']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3) by extension 'colcon_pkg'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3) by extensions ['colcon_meta']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3) by extension 'colcon_meta'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3) by extensions ['ros']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3) by extension 'ros'
+[1.010s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3' with type 'ros.ament_cmake' and name 'turtlebot3'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_bringup) by extensions ['ignore', 'ignore_ament_install']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_bringup) by extension 'ignore'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_bringup) by extension 'ignore_ament_install'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_bringup) by extensions ['colcon_pkg']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_bringup) by extension 'colcon_pkg'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_bringup) by extensions ['colcon_meta']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_bringup) by extension 'colcon_meta'
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_bringup) by extensions ['ros']
+[1.010s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_bringup) by extension 'ros'
+[1.011s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_bringup' with type 'ros.ament_cmake' and name 'turtlebot3_bringup'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_cartographer) by extensions ['ignore', 'ignore_ament_install']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_cartographer) by extension 'ignore'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_cartographer) by extension 'ignore_ament_install'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_cartographer) by extensions ['colcon_pkg']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_cartographer) by extension 'colcon_pkg'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_cartographer) by extensions ['colcon_meta']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_cartographer) by extension 'colcon_meta'
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_cartographer) by extensions ['ros']
+[1.011s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_cartographer) by extension 'ros'
+[1.012s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_cartographer' with type 'ros.ament_cmake' and name 'turtlebot3_cartographer'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_description) by extensions ['ignore', 'ignore_ament_install']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_description) by extension 'ignore'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_description) by extension 'ignore_ament_install'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_description) by extensions ['colcon_pkg']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_description) by extension 'colcon_pkg'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_description) by extensions ['colcon_meta']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_description) by extension 'colcon_meta'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_description) by extensions ['ros']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_description) by extension 'ros'
+[1.012s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_description' with type 'ros.ament_cmake' and name 'turtlebot3_description'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_example) by extensions ['ignore', 'ignore_ament_install']
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_example) by extension 'ignore'
+[1.012s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_example) by extension 'ignore_ament_install'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_example) by extensions ['colcon_pkg']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_example) by extension 'colcon_pkg'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_example) by extensions ['colcon_meta']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_example) by extension 'colcon_meta'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_example) by extensions ['ros']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_example) by extension 'ros'
+[1.013s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_example' with type 'ros.ament_python' and name 'turtlebot3_example'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_navigation2) by extensions ['ignore', 'ignore_ament_install']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_navigation2) by extension 'ignore'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_navigation2) by extension 'ignore_ament_install'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_navigation2) by extensions ['colcon_pkg']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_navigation2) by extension 'colcon_pkg'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_navigation2) by extensions ['colcon_meta']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_navigation2) by extension 'colcon_meta'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_navigation2) by extensions ['ros']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_navigation2) by extension 'ros'
+[1.013s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_navigation2' with type 'ros.ament_cmake' and name 'turtlebot3_navigation2'
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_node) by extensions ['ignore', 'ignore_ament_install']
+[1.013s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_node) by extension 'ignore'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_node) by extension 'ignore_ament_install'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_node) by extensions ['colcon_pkg']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_node) by extension 'colcon_pkg'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_node) by extensions ['colcon_meta']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_node) by extension 'colcon_meta'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_node) by extensions ['ros']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_node) by extension 'ros'
+[1.014s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_node' with type 'ros.ament_cmake' and name 'turtlebot3_node'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_teleop) by extensions ['ignore', 'ignore_ament_install']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_teleop) by extension 'ignore'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_teleop) by extension 'ignore_ament_install'
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_teleop) by extensions ['colcon_pkg']
+[1.014s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_teleop) by extension 'colcon_pkg'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_teleop) by extensions ['colcon_meta']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_teleop) by extension 'colcon_meta'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_teleop) by extensions ['ros']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_teleop) by extension 'ros'
+[1.015s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_teleop' with type 'ros.ament_python' and name 'turtlebot3_teleop'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations) by extension 'ignore'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations) by extension 'ignore_ament_install'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations) by extensions ['colcon_pkg']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations) by extension 'colcon_pkg'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations) by extensions ['colcon_meta']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations) by extension 'colcon_meta'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations) by extensions ['ros']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations) by extension 'ros'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations) by extensions ['cmake', 'python']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations) by extension 'cmake'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations) by extension 'python'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations) by extensions ['python_setup_py']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations) by extension 'python_setup_py'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ignore', 'ignore_ament_install']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ignore_ament_install'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_pkg']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_pkg'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['colcon_meta']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'colcon_meta'
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_fake_node) by extensions ['ros']
+[1.015s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_fake_node) by extension 'ros'
+[1.016s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_fake_node' with type 'ros.ament_cmake' and name 'turtlebot3_fake_node'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ignore_ament_install'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_pkg']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_pkg'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['colcon_meta']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'colcon_meta'
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_gazebo) by extensions ['ros']
+[1.016s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_gazebo) by extension 'ros'
+[1.017s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_gazebo' with type 'ros.ament_cmake' and name 'turtlebot3_gazebo'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ignore', 'ignore_ament_install']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ignore_ament_install'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_pkg']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_pkg'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['colcon_meta']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'colcon_meta'
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_simulations) by extensions ['ros']
+[1.017s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_simulations) by extension 'ros'
+[1.017s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_simulations' with type 'ros.ament_cmake' and name 'turtlebot3_simulations'
+[1.017s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.017s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.017s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.017s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.017s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.110s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.142s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/daniiarr/colcon_ws/install
+[1.158s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 302 installed packages in /opt/ros/foxy
+[1.159s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'tb3_autonomy' build argument 'cmake_args' from command line to 'None'
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'tb3_autonomy' build argument 'cmake_target' from command line to 'None'
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'tb3_autonomy' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'tb3_autonomy' build argument 'cmake_clean_cache' from command line to 'False'
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'tb3_autonomy' build argument 'cmake_clean_first' from command line to 'False'
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'tb3_autonomy' build argument 'cmake_force_configure' from command line to 'False'
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'tb3_autonomy' build argument 'ament_cmake_args' from command line to 'None'
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'tb3_autonomy' build argument 'catkin_cmake_args' from command line to 'None'
+[1.225s] Level 5:colcon.colcon_core.verb:set package 'tb3_autonomy' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.225s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_autonomy' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniiarr/colcon_ws/build/tb3_autonomy', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniiarr/colcon_ws/install/tb3_autonomy', 'merge_install': False, 'path': '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_autonomy', 'symlink_install': False, 'test_result_base': None}
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'tb3_sim' build argument 'cmake_args' from command line to 'None'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'tb3_sim' build argument 'cmake_target' from command line to 'None'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'tb3_sim' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'tb3_sim' build argument 'cmake_clean_cache' from command line to 'False'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'tb3_sim' build argument 'cmake_clean_first' from command line to 'False'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'tb3_sim' build argument 'cmake_force_configure' from command line to 'False'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'tb3_sim' build argument 'ament_cmake_args' from command line to 'None'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'tb3_sim' build argument 'catkin_cmake_args' from command line to 'None'
+[1.241s] Level 5:colcon.colcon_core.verb:set package 'tb3_sim' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.241s] DEBUG:colcon.colcon_core.verb:Building package 'tb3_sim' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniiarr/colcon_ws/build/tb3_sim', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniiarr/colcon_ws/install/tb3_sim', 'merge_install': False, 'path': '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_sim', 'symlink_install': False, 'test_result_base': None}
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_args' from command line to 'None'
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_target' from command line to 'None'
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_clean_cache' from command line to 'False'
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_clean_first' from command line to 'False'
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'cmake_force_configure' from command line to 'False'
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'ament_cmake_args' from command line to 'None'
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'catkin_cmake_args' from command line to 'None'
+[1.257s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_cartographer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.257s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_cartographer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniiarr/colcon_ws/build/turtlebot3_cartographer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer', 'merge_install': False, 'path': '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_cartographer', 'symlink_install': False, 'test_result_base': None}
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_args' from command line to 'None'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_target' from command line to 'None'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.272s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.272s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniiarr/colcon_ws/build/turtlebot3_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniiarr/colcon_ws/install/turtlebot3_description', 'merge_install': False, 'path': '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_description', 'symlink_install': False, 'test_result_base': None}
+[1.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_args' from command line to 'None'
+[1.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_target' from command line to 'None'
+[1.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_clean_cache' from command line to 'False'
+[1.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_clean_first' from command line to 'False'
+[1.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'cmake_force_configure' from command line to 'False'
+[1.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'ament_cmake_args' from command line to 'None'
+[1.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'catkin_cmake_args' from command line to 'None'
+[1.288s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.288s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniiarr/colcon_ws/build/turtlebot3_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniiarr/colcon_ws/install/turtlebot3_example', 'merge_install': False, 'path': '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_example', 'symlink_install': False, 'test_result_base': None}
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_args' from command line to 'None'
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target' from command line to 'None'
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.309s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_fake_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.309s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_fake_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniiarr/colcon_ws/build/turtlebot3_fake_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniiarr/colcon_ws/install/turtlebot3_fake_node', 'merge_install': False, 'path': '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_fake_node', 'symlink_install': False, 'test_result_base': None}
+[1.325s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_args' from command line to 'None'
+[1.325s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_target' from command line to 'None'
+[1.325s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.325s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_clean_cache' from command line to 'False'
+[1.325s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_clean_first' from command line to 'False'
+[1.325s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'cmake_force_configure' from command line to 'False'
+[1.325s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'ament_cmake_args' from command line to 'None'
+[1.325s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'catkin_cmake_args' from command line to 'None'
+[1.325s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_navigation2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.325s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_navigation2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniiarr/colcon_ws/build/turtlebot3_navigation2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2', 'merge_install': False, 'path': '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_navigation2', 'symlink_install': False, 'test_result_base': None}
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_args' from command line to 'None'
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_target' from command line to 'None'
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_clean_cache' from command line to 'False'
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_clean_first' from command line to 'False'
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'cmake_force_configure' from command line to 'False'
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'ament_cmake_args' from command line to 'None'
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'catkin_cmake_args' from command line to 'None'
+[1.340s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.340s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniiarr/colcon_ws/build/turtlebot3_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniiarr/colcon_ws/install/turtlebot3_node', 'merge_install': False, 'path': '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_node', 'symlink_install': False, 'test_result_base': None}
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_args' from command line to 'None'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_target' from command line to 'None'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[1.356s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.356s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniiarr/colcon_ws/build/turtlebot3_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniiarr/colcon_ws/install/turtlebot3_teleop', 'merge_install': False, 'path': '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_teleop', 'symlink_install': False, 'test_result_base': None}
+[1.371s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_args' from command line to 'None'
+[1.371s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_target' from command line to 'None'
+[1.371s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.371s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.371s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.371s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.371s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.371s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.371s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.371s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniiarr/colcon_ws/build/turtlebot3_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniiarr/colcon_ws/install/turtlebot3_bringup', 'merge_install': False, 'path': '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.386s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.386s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniiarr/colcon_ws/build/turtlebot3_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniiarr/colcon_ws/install/turtlebot3_gazebo', 'merge_install': False, 'path': '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_gazebo', 'symlink_install': False, 'test_result_base': None}
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_args' from command line to 'None'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_target' from command line to 'None'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_clean_cache' from command line to 'False'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_clean_first' from command line to 'False'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'cmake_force_configure' from command line to 'False'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'ament_cmake_args' from command line to 'None'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'catkin_cmake_args' from command line to 'None'
+[1.402s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.402s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniiarr/colcon_ws/build/turtlebot3', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniiarr/colcon_ws/install/turtlebot3', 'merge_install': False, 'path': '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3', 'symlink_install': False, 'test_result_base': None}
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_args' from command line to 'None'
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target' from command line to 'None'
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.417s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_cache' from command line to 'False'
+[1.418s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_clean_first' from command line to 'False'
+[1.418s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'cmake_force_configure' from command line to 'False'
+[1.418s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'ament_cmake_args' from command line to 'None'
+[1.418s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_cmake_args' from command line to 'None'
+[1.418s] Level 5:colcon.colcon_core.verb:set package 'turtlebot3_simulations' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.418s] DEBUG:colcon.colcon_core.verb:Building package 'turtlebot3_simulations' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/daniiarr/colcon_ws/build/turtlebot3_simulations', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/daniiarr/colcon_ws/install/turtlebot3_simulations', 'merge_install': False, 'path': '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_simulations', 'symlink_install': False, 'test_result_base': None}
+[1.433s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.450s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.450s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_description' with build type 'ament_cmake'
+[1.450s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_description'
+[1.467s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.467s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.467s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.523s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_node' with build type 'ament_cmake'
+[1.524s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_node'
+[1.541s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.541s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.605s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_cartographer' with build type 'ament_cmake'
+[1.605s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_cartographer'
+[1.623s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.623s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.681s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_example' with build type 'ament_python'
+[1.681s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_example', 'ament_prefix_path')
+[1.698s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniiarr/colcon_ws/install/turtlebot3_example/share/turtlebot3_example/hook/ament_prefix_path.ps1'
+[1.700s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniiarr/colcon_ws/install/turtlebot3_example/share/turtlebot3_example/hook/ament_prefix_path.dsv'
+[1.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniiarr/colcon_ws/install/turtlebot3_example/share/turtlebot3_example/hook/ament_prefix_path.sh'
+[1.718s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.718s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.776s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniiarr/colcon_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/turtlebot3_description
+[1.781s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniiarr/colcon_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/turtlebot3_node
+[1.785s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniiarr/colcon_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/turtlebot3_cartographer
+[1.937s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_example'
+[1.957s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.957s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.364s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_example': PYTHONPATH=/home/daniiarr/colcon_ws/build/turtlebot3_example/prefix_override:/home/daniiarr/colcon_ws/install/turtlebot3_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/turtlebot3_example build --build-base /home/daniiarr/colcon_ws/build/turtlebot3_example/build install --record /home/daniiarr/colcon_ws/build/turtlebot3_example/install.log --single-version-externally-managed
+[2.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniiarr/colcon_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/turtlebot3_cartographer
+[2.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniiarr/colcon_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daniiarr/colcon_ws/build/turtlebot3_cartographer -- -j4 -l4
+[2.404s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniiarr/colcon_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daniiarr/colcon_ws/build/turtlebot3_cartographer -- -j4 -l4
+[2.407s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniiarr/colcon_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/turtlebot3_description
+[2.408s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniiarr/colcon_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daniiarr/colcon_ws/build/turtlebot3_description -- -j4 -l4
+[2.438s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniiarr/colcon_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/daniiarr/colcon_ws/build/turtlebot3_cartographer
+[2.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniiarr/colcon_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daniiarr/colcon_ws/build/turtlebot3_description -- -j4 -l4
+[2.451s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_cartographer)
+[2.452s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniiarr/colcon_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/daniiarr/colcon_ws/build/turtlebot3_cartographer
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer' for CMake module files
+[2.474s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer' for CMake config files
+[2.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_cartographer', 'cmake_prefix_path')
+[2.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.ps1'
+[2.499s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.dsv'
+[2.499s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.sh'
+[2.500s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/bin'
+[2.500s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/lib/pkgconfig/turtlebot3_cartographer.pc'
+[2.500s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/lib/python3.8/site-packages'
+[2.500s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/bin'
+[2.525s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.ps1'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.sh'
+[2.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.bash'
+[2.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.zsh'
+[2.527s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/colcon-core/packages/turtlebot3_cartographer)
+[2.530s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniiarr/colcon_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/daniiarr/colcon_ws/build/turtlebot3_description
+[2.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_example' returned '0': PYTHONPATH=/home/daniiarr/colcon_ws/build/turtlebot3_example/prefix_override:/home/daniiarr/colcon_ws/install/turtlebot3_example/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/turtlebot3_example build --build-base /home/daniiarr/colcon_ws/build/turtlebot3_example/build install --record /home/daniiarr/colcon_ws/build/turtlebot3_example/install.log --single-version-externally-managed
+[2.571s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_example' for CMake module files
+[2.572s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_example' for CMake config files
+[2.572s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_example/lib'
+[2.572s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_example/bin'
+[2.572s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_example/lib/pkgconfig/turtlebot3_example.pc'
+[2.573s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_example/lib/python3.8/site-packages'
+[2.573s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_example', 'pythonpath')
+[2.590s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniiarr/colcon_ws/install/turtlebot3_example/share/turtlebot3_example/hook/pythonpath.ps1'
+[2.590s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniiarr/colcon_ws/install/turtlebot3_example/share/turtlebot3_example/hook/pythonpath.dsv'
+[2.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniiarr/colcon_ws/install/turtlebot3_example/share/turtlebot3_example/hook/pythonpath.sh'
+[2.591s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_example/bin'
+[2.591s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_example)
+[2.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_example/share/turtlebot3_example/package.ps1'
+[2.609s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniiarr/colcon_ws/install/turtlebot3_example/share/turtlebot3_example/package.dsv'
+[2.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_example/share/turtlebot3_example/package.sh'
+[2.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_example/share/turtlebot3_example/package.bash'
+[2.609s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_example/share/turtlebot3_example/package.zsh'
+[2.609s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniiarr/colcon_ws/install/turtlebot3_example/share/colcon-core/packages/turtlebot3_example)
+[2.610s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_fake_node' with build type 'ament_cmake'
+[2.610s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_fake_node'
+[2.628s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.628s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.688s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_description)
+[2.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniiarr/colcon_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/daniiarr/colcon_ws/build/turtlebot3_description
+[2.706s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_description' for CMake module files
+[2.707s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_description' for CMake config files
+[2.707s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description', 'cmake_prefix_path')
+[2.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniiarr/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.ps1'
+[2.724s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniiarr/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.dsv'
+[2.724s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniiarr/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.sh'
+[2.724s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_description/bin'
+[2.724s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_description/lib/pkgconfig/turtlebot3_description.pc'
+[2.724s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_description/lib/python3.8/site-packages'
+[2.724s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_description/bin'
+[2.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.ps1'
+[2.741s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniiarr/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv'
+[2.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.sh'
+[2.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.bash'
+[2.742s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.zsh'
+[2.742s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniiarr/colcon_ws/install/turtlebot3_description/share/colcon-core/packages/turtlebot3_description)
+[2.763s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_cartographer)
+[2.780s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer' for CMake module files
+[2.781s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer' for CMake config files
+[2.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_cartographer', 'cmake_prefix_path')
+[2.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.ps1'
+[2.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.dsv'
+[2.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/hook/cmake_prefix_path.sh'
+[2.800s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/bin'
+[2.800s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/lib/pkgconfig/turtlebot3_cartographer.pc'
+[2.800s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/lib/python3.8/site-packages'
+[2.800s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/bin'
+[2.819s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.ps1'
+[2.820s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv'
+[2.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.sh'
+[2.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.bash'
+[2.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.zsh'
+[2.821s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/colcon-core/packages/turtlebot3_cartographer)
+[2.821s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_navigation2' with build type 'ament_cmake'
+[2.821s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_navigation2'
+[2.839s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.839s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniiarr/colcon_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/turtlebot3_fake_node
+[2.927s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_description)
+[2.945s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_description' for CMake module files
+[2.945s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_description' for CMake config files
+[2.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_description', 'cmake_prefix_path')
+[2.964s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniiarr/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.ps1'
+[2.965s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniiarr/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.dsv'
+[2.965s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniiarr/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/hook/cmake_prefix_path.sh'
+[2.965s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_description/bin'
+[2.965s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_description/lib/pkgconfig/turtlebot3_description.pc'
+[2.965s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_description/lib/python3.8/site-packages'
+[2.965s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_description/bin'
+[2.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.ps1'
+[2.984s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniiarr/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv'
+[2.984s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.sh'
+[2.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.bash'
+[2.985s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_description/share/turtlebot3_description/package.zsh'
+[2.985s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniiarr/colcon_ws/install/turtlebot3_description/share/colcon-core/packages/turtlebot3_description)
+[2.986s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_teleop' with build type 'ament_python'
+[2.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_teleop', 'ament_prefix_path')
+[3.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniiarr/colcon_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/ament_prefix_path.ps1'
+[3.005s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniiarr/colcon_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/ament_prefix_path.dsv'
+[3.005s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniiarr/colcon_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/ament_prefix_path.sh'
+[3.024s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.024s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniiarr/colcon_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/turtlebot3_navigation2
+[3.231s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_teleop'
+[3.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.263s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_teleop': PYTHONPATH=/home/daniiarr/colcon_ws/build/turtlebot3_teleop/prefix_override:/home/daniiarr/colcon_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/turtlebot3_teleop build --build-base /home/daniiarr/colcon_ws/build/turtlebot3_teleop/build install --record /home/daniiarr/colcon_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed
+[3.611s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniiarr/colcon_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_navigation2 -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/turtlebot3_navigation2
+[3.612s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniiarr/colcon_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daniiarr/colcon_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[3.642s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniiarr/colcon_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daniiarr/colcon_ws/build/turtlebot3_navigation2 -- -j4 -l4
+[3.662s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniiarr/colcon_ws/build/turtlebot3_navigation2': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/daniiarr/colcon_ws/build/turtlebot3_navigation2
+[3.681s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_navigation2)
+[3.684s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniiarr/colcon_ws/build/turtlebot3_navigation2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/daniiarr/colcon_ws/build/turtlebot3_navigation2
+[3.705s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2' for CMake module files
+[3.706s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2' for CMake config files
+[3.706s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_navigation2', 'cmake_prefix_path')
+[3.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.ps1'
+[3.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.dsv'
+[3.723s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.sh'
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/bin'
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/lib/pkgconfig/turtlebot3_navigation2.pc'
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/lib/python3.8/site-packages'
+[3.724s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/bin'
+[3.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.ps1'
+[3.756s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv'
+[3.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.sh'
+[3.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.bash'
+[3.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.zsh'
+[3.757s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/share/colcon-core/packages/turtlebot3_navigation2)
+[3.766s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniiarr/colcon_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/turtlebot3_node
+[3.767s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniiarr/colcon_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daniiarr/colcon_ws/build/turtlebot3_node -- -j4 -l4
+[3.770s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3/turtlebot3_teleop' returned '0': PYTHONPATH=/home/daniiarr/colcon_ws/build/turtlebot3_teleop/prefix_override:/home/daniiarr/colcon_ws/install/turtlebot3_teleop/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../../build/turtlebot3_teleop build --build-base /home/daniiarr/colcon_ws/build/turtlebot3_teleop/build install --record /home/daniiarr/colcon_ws/build/turtlebot3_teleop/install.log --single-version-externally-managed
+[3.790s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_teleop' for CMake module files
+[3.790s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_teleop' for CMake config files
+[3.790s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_teleop/lib'
+[3.790s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_teleop/bin'
+[3.790s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_teleop/lib/pkgconfig/turtlebot3_teleop.pc'
+[3.790s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_teleop/lib/python3.8/site-packages'
+[3.790s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_teleop', 'pythonpath')
+[3.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniiarr/colcon_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath.ps1'
+[3.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniiarr/colcon_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath.dsv'
+[3.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniiarr/colcon_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/hook/pythonpath.sh'
+[3.812s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_teleop/bin'
+[3.812s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_teleop)
+[3.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/package.ps1'
+[3.830s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniiarr/colcon_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/package.dsv'
+[3.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/package.sh'
+[3.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/package.bash'
+[3.831s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_teleop/share/turtlebot3_teleop/package.zsh'
+[3.831s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniiarr/colcon_ws/install/turtlebot3_teleop/share/colcon-core/packages/turtlebot3_teleop)
+[3.832s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_gazebo' with build type 'ament_cmake'
+[3.832s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_gazebo'
+[3.850s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.850s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.935s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_navigation2)
+[3.953s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2' for CMake module files
+[3.953s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2' for CMake config files
+[3.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtlebot3_navigation2', 'cmake_prefix_path')
+[3.971s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.ps1'
+[3.972s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.dsv'
+[3.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/hook/cmake_prefix_path.sh'
+[3.972s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/bin'
+[3.972s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/lib/pkgconfig/turtlebot3_navigation2.pc'
+[3.972s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/lib/python3.8/site-packages'
+[3.973s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/bin'
+[3.993s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.ps1'
+[3.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.dsv'
+[3.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.sh'
+[3.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.bash'
+[3.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/share/turtlebot3_navigation2/package.zsh'
+[3.994s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniiarr/colcon_ws/install/turtlebot3_navigation2/share/colcon-core/packages/turtlebot3_navigation2)
+[3.995s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_autonomy' with build type 'ament_cmake'
+[3.995s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_autonomy'
+[4.016s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.016s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.099s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniiarr/colcon_ws/build/turtlebot3_gazebo': AMENT_PREFIX_PATH=/home/daniiarr/colcon_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daniiarr/colcon_ws/install/turtlebot3_description:/opt/ros/foxy /usr/bin/cmake /home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/turtlebot3_gazebo
+[4.111s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniiarr/colcon_ws/build/tb3_autonomy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/tb3_autonomy_bt/tb3_autonomy -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/tb3_autonomy
+[4.500s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniiarr/colcon_ws/build/turtlebot3_fake_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_fake_node -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/turtlebot3_fake_node
+[4.502s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/daniiarr/colcon_ws/build/turtlebot3_fake_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daniiarr/colcon_ws/build/turtlebot3_fake_node -- -j4 -l4
+[5.956s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/daniiarr/colcon_ws/build/turtlebot3_gazebo' returned '1': AMENT_PREFIX_PATH=/home/daniiarr/colcon_ws/install/turtlebot3_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/daniiarr/colcon_ws/install/turtlebot3_description:/opt/ros/foxy /usr/bin/cmake /home/daniiarr/colcon_ws/src/turtlebot3_autonomous_navigation/src/turtlebot3_simulations/turtlebot3_gazebo -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/turtlebot3_gazebo
+[5.984s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtlebot3_gazebo)
+[6.039s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_gazebo' for CMake module files
+[6.039s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_gazebo' for CMake config files
+[6.040s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_gazebo/bin'
+[6.040s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_gazebo/lib/pkgconfig/turtlebot3_gazebo.pc'
+[6.040s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_gazebo/lib/python3.8/site-packages'
+[6.040s] Level 1:colcon.colcon_core.environment:checking '/home/daniiarr/colcon_ws/install/turtlebot3_gazebo/bin'
+[6.112s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.ps1'
+[6.113s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/daniiarr/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.dsv'
+[6.113s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.sh'
+[6.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.bash'
+[6.114s] INFO:colcon.colcon_core.shell:Creating package script '/home/daniiarr/colcon_ws/install/turtlebot3_gazebo/share/turtlebot3_gazebo/package.zsh'
+[6.114s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/daniiarr/colcon_ws/install/turtlebot3_gazebo/share/colcon-core/packages/turtlebot3_gazebo)
+[16.388s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.389s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.389s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[16.390s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.447s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.447s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.448s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.494s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.523s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/daniiarr/colcon_ws/install/local_setup.ps1'
+[16.525s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/daniiarr/colcon_ws/install/_local_setup_util_ps1.py'
+[16.527s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/daniiarr/colcon_ws/install/setup.ps1'
+[16.546s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/daniiarr/colcon_ws/install/local_setup.sh'
+[16.547s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/daniiarr/colcon_ws/install/_local_setup_util_sh.py'
+[16.547s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/daniiarr/colcon_ws/install/setup.sh'
+[16.567s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/daniiarr/colcon_ws/install/local_setup.bash'
+[16.567s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/daniiarr/colcon_ws/install/setup.bash'
+[16.586s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/daniiarr/colcon_ws/install/local_setup.zsh'
+[16.586s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/daniiarr/colcon_ws/install/setup.zsh'

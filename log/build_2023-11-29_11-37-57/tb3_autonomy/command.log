@@ -1,0 +1,4 @@
+Invoking command in '/home/daniiarr/colcon_ws/build/tb3_autonomy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daniiarr/colcon_ws/build/tb3_autonomy -- -j4 -l4
+Invoked command in '/home/daniiarr/colcon_ws/build/tb3_autonomy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daniiarr/colcon_ws/build/tb3_autonomy -- -j4 -l4
+Invoking command in '/home/daniiarr/colcon_ws/build/tb3_autonomy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/daniiarr/colcon_ws/build/tb3_autonomy
+Invoked command in '/home/daniiarr/colcon_ws/build/tb3_autonomy' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/daniiarr/colcon_ws/build/tb3_autonomy

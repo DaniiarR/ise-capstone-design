@@ -1,0 +1,6 @@
+[0.107s] Invoking command in '/home/daniiarr/colcon_ws/build/tb3_autonomy': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daniiarr/colcon_ws/build/tb3_autonomy -- -j4 -l4
+[0.158s] [35m[1mScanning dependencies of target autonomy_node[0m
+[0.255s] [ 33%] [32mBuilding CXX object CMakeFiles/autonomy_node.dir/src/navigation_behaviors.cpp.o[0m
+[0.264s] [ 66%] [32mBuilding CXX object CMakeFiles/autonomy_node.dir/src/autonomy_node.cpp.o[0m
+[2.875s] [100%] [32m[1mLinking CXX executable autonomy_node[0m
+[3.037s] [100%] Built target autonomy_node

@@ -1,0 +1,49 @@
+[0.138s] Invoking command in '/home/daniiarr/colcon_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daniiarr/colcon_ws/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/turtlebot3_cartographer
+[0.331s] -- The C compiler identification is GNU 9.4.0
+[0.387s] -- The CXX compiler identification is GNU 9.4.0
+[0.387s] -- Check for working C compiler: /usr/bin/cc
+[0.437s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.443s] -- Detecting C compiler ABI info
+[0.499s] -- Detecting C compiler ABI info - done
+[0.507s] -- Detecting C compile features
+[0.508s] -- Detecting C compile features - done
+[0.510s] -- Check for working CXX compiler: /usr/bin/c++
+[0.583s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.583s] -- Detecting CXX compiler ABI info
+[0.671s] -- Detecting CXX compiler ABI info - done
+[0.680s] -- Detecting CXX compile features
+[0.680s] -- Detecting CXX compile features - done
+[0.682s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.709s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.709s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.886s] -- Configuring done
+[0.886s] -- Generating done
+[0.888s] -- Build files have been written to: /home/daniiarr/colcon_ws/build/turtlebot3_cartographer
+[0.958s] Invoked command in '/home/daniiarr/colcon_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daniiarr/colcon_ws/src/turtlebot3/turtlebot3_cartographer -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/turtlebot3_cartographer
+[0.959s] Invoking command in '/home/daniiarr/colcon_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daniiarr/colcon_ws/build/turtlebot3_cartographer -- -j4 -l4
+[1.012s] Invoked command in '/home/daniiarr/colcon_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daniiarr/colcon_ws/build/turtlebot3_cartographer -- -j4 -l4
+[1.044s] Invoking command in '/home/daniiarr/colcon_ws/build/turtlebot3_cartographer': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/daniiarr/colcon_ws/build/turtlebot3_cartographer
+[1.049s] -- Install configuration: ""
+[1.049s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config
+[1.049s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/config/turtlebot3_lds_2d.lua
+[1.049s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch
+[1.049s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/cartographer.launch.py
+[1.049s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/launch/occupancy_grid.launch.py
+[1.050s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz
+[1.050s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/rviz/tb3_cartographer.rviz
+[1.050s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/package_run_dependencies/turtlebot3_cartographer
+[1.050s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/parent_prefix_path/turtlebot3_cartographer
+[1.050s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.sh
+[1.050s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/ament_prefix_path.dsv
+[1.050s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.sh
+[1.050s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/environment/path.dsv
+[1.050s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.bash
+[1.051s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.sh
+[1.051s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.zsh
+[1.051s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/local_setup.dsv
+[1.051s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.dsv
+[1.051s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/ament_index/resource_index/packages/turtlebot3_cartographer
+[1.051s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig.cmake
+[1.051s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/cmake/turtlebot3_cartographerConfig-version.cmake
+[1.052s] -- Installing: /home/daniiarr/colcon_ws/install/turtlebot3_cartographer/share/turtlebot3_cartographer/package.xml
+[1.053s] Invoked command in '/home/daniiarr/colcon_ws/build/turtlebot3_cartographer' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/daniiarr/colcon_ws/build/turtlebot3_cartographer

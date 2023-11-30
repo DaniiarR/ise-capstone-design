@@ -1,0 +1,67 @@
+[0.188s] Invoking command in '/home/daniiarr/colcon_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daniiarr/colcon_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/turtlebot3_node
+[0.383s] -- The C compiler identification is GNU 9.4.0
+[0.421s] -- The CXX compiler identification is GNU 9.4.0
+[0.430s] -- Check for working C compiler: /usr/bin/cc
+[0.507s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.508s] -- Detecting C compiler ABI info
+[0.564s] -- Detecting C compiler ABI info - done
+[0.572s] -- Detecting C compile features
+[0.572s] -- Detecting C compile features - done
+[0.574s] -- Check for working CXX compiler: /usr/bin/c++
+[0.628s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.629s] -- Detecting CXX compiler ABI info
+[0.708s] -- Detecting CXX compiler ABI info - done
+[0.711s] -- Detecting CXX compile features
+[0.711s] -- Detecting CXX compile features - done
+[0.726s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.762s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.762s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.902s] -- Found dynamixel_sdk: 3.7.40 (/opt/ros/foxy/share/dynamixel_sdk/cmake)
+[0.906s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.947s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.958s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.059s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[1.084s] -- Found FastRTPS: /opt/ros/foxy/include  
+[1.172s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.257s] -- Found message_filters: 3.2.7 (/opt/ros/foxy/share/message_filters/cmake)
+[1.262s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[1.326s] -- Found rclcpp: 2.4.3 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.380s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[1.385s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.389s] -- Looking for pthread.h
+[1.441s] -- Looking for pthread.h - found
+[1.441s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.491s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.491s] -- Looking for pthread_create in pthreads
+[1.534s] -- Looking for pthread_create in pthreads - not found
+[1.534s] -- Looking for pthread_create in pthread
+[1.591s] -- Looking for pthread_create in pthread - found
+[1.592s] -- Found Threads: TRUE  
+[1.724s] -- Found sensor_msgs: 2.0.5 (/opt/ros/foxy/share/sensor_msgs/cmake)
+[1.790s] -- Found std_srvs: 2.0.5 (/opt/ros/foxy/share/std_srvs/cmake)
+[1.805s] -- Found tf2: 0.13.14 (/opt/ros/foxy/share/tf2/cmake)
+[1.815s] -- Found tf2_ros: 0.13.14 (/opt/ros/foxy/share/tf2_ros/cmake)
+[2.145s] -- Found turtlebot3_msgs: 2.2.1 (/opt/ros/foxy/share/turtlebot3_msgs/cmake)
+[2.264s] -- Configuring done
+[2.284s] -- Generating done
+[2.285s] -- Build files have been written to: /home/daniiarr/colcon_ws/build/turtlebot3_node
+[2.300s] Invoked command in '/home/daniiarr/colcon_ws/build/turtlebot3_node' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/daniiarr/colcon_ws/src/turtlebot3/turtlebot3_node -DCMAKE_INSTALL_PREFIX=/home/daniiarr/colcon_ws/install/turtlebot3_node
+[2.301s] Invoking command in '/home/daniiarr/colcon_ws/build/turtlebot3_node': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/daniiarr/colcon_ws/build/turtlebot3_node -- -j4 -l4
+[2.330s] [35m[1mScanning dependencies of target turtlebot3_node_lib[0m
+[2.520s] [  7%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/sound.cpp.o[0m
+[2.524s] [ 14%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/motor_power.cpp.o[0m
+[2.540s] [ 21%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/diff_drive_controller.cpp.o[0m
+[2.542s] [ 28%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/devices/reset.cpp.o[0m
+[5.188s] [ 35%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/dynamixel_sdk_wrapper.cpp.o[0m
+[5.391s] [ 42%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/odometry.cpp.o[0m
+[5.428s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/turtlebot3.cpp.o[0m
+[5.554s] [ 57%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/battery_state.cpp.o[0m
+[5.612s] [ 64%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/imu.cpp.o[0m
+[7.648s] [ 71%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/joint_state.cpp.o[0m
+[9.741s] [ 78%] [32mBuilding CXX object CMakeFiles/turtlebot3_node_lib.dir/src/sensors/sensor_state.cpp.o[0m
+[13.350s] [ 85%] [32m[1mLinking CXX static library libturtlebot3_node_lib.a[0m
+[13.513s] [ 85%] Built target turtlebot3_node_lib
+[13.519s] [35m[1mScanning dependencies of target turtlebot3_ros[0m
+[13.595s] [ 92%] [32mBuilding CXX object CMakeFiles/turtlebot3_ros.dir/src/node_main.cpp.o[0m
+[14.712s] [100%] [32m[1mLinking CXX executable turtlebot3_ros[0m
+[15.351s] [100%] Built target turtlebot3_ros
